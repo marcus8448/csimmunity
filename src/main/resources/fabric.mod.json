@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "csimmunity",
+  "version": "${version}",
+
+  "name": "Context-Specific Immunity",
+  "description": "Disables world-join immunity based on context.",
+  "authors": [
+    "marcus8448"
+  ],
+  "contact": {
+    "homepage": "https://marcus8448.github.io/",
+    "sources": "https://github.com/marcus8448/csimmunity"
+  },
+
+  "license": "LGPL-3-or-later",
+  "icon": "assets/csimmunity/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.marcus8448.mods.csimmunity.CSImmunity"
+    ]
+  },
+  "mixins": [
+    "csimmunity.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": "1.16.x"
+  }
+}
